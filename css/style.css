@@ -135,3 +135,15 @@ main{
     bottom: 50px;
     left: 55px;
 }
+
+.content:hover .main-img{
+    display: none
+}
+
+.content:hover .hover-img{
+    display: block
+}
+
+.hover-img{
+    display: none;
+}
