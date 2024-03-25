@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    padding: 15px 0px;
+    background-color: orangered;
+    width: 100%;
+  
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-25{
+    width: 25%;
+    height: 40px;
+    border: 1px solid black
+}
+
+.col-50{
+    width: 50%;
+    height: 40px;
+    border: 1px solid black
+}
+
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blueviolet{
+    background-color: blueviolet;
+}
+
+.bg-black{
+    background-color: black;
+}
+
