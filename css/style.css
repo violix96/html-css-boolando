@@ -13,11 +13,15 @@ header{
   
 }
 
+.logo-user{
+    width: 20px;
+}
+
 footer{
     padding: 15px 0px;
     background-color: black;
     margin-top: 50px;
-    height: 150px;
+    /* height: 150px; */
   
 }
 
@@ -224,4 +228,11 @@ a{
 
 .content-like:hover .cuoricino-hover{
     display: inline-block;
+}
+
+h6{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
