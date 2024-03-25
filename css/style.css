@@ -12,6 +12,9 @@ header{
   
 }
 
+main{
+    padding-top: 100px;
+}
 
 .container{
     max-width: 1200px;
@@ -33,6 +36,17 @@ header{
     width: 50%;
     height: 40px;
     border: 1px solid black
+
+}
+
+.col-33{
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    border: 1px solid black
+}
+
+.content{
+    height: 300px;
 }
 
 
